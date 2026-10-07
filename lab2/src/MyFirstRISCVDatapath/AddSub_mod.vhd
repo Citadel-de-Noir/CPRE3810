@@ -1,0 +1,112 @@
+-------------------------------------------------------------------------
+-- Sayon Saha
+-- Department of Electrical and Computer Engineering
+-- Iowa State University
+-------------------------------------------------------------------------
+-- AddSub_mod.vhd
+-- modified by adding another 32 bit mux to comply with MyFirstRISCVDatapath
+-------------------------------------------------------------------------
+library IEEE;
+use IEEE.std_logic_1164.all;
+
+entity AddSub_mod is
+  generic (N : integer := 32);
+
+  port (
+    i_A        : in std_logic_vector(N - 1 downto 0);
+    i_B        : in std_logic_vector(N - 1 downto 0);
+    i_nAdd_Sub : in std_logic;
+    i_imm      : in std_logic_vector(N - 1 downto 0);
+    i_ALUSrc   : in std_logic;
+    o_S        : out std_logic_vector(N - 1 downto 0);
+    o_C        : out std_logic
+  );
+end AddSub_mod;
+
+architecture mixture of AddSub_mod is
+
+  component OnesComp is
+    generic (N : integer := 32);
+
+    port (
+      i_A : in std_logic_vector(N - 1 downto 0);
+      o_F : out std_logic_vector(N - 1 downto 0)
+    );
+  end component;
+
+  component mux2t1_N is
+    generic (N : integer := 32);
+
+    port (
+      i_S  : in std_logic;
+      i_D0 : in std_logic_vector(N - 1 downto 0);
+      i_D1 : in std_logic_vector(N - 1 downto 0);
+      o_O  : out std_logic_vector(N - 1 downto 0)
+    );
+  end component;
+
+  component Adder_nbit is
+    generic (N : integer := 32);
+
+    port (
+      i_C : in std_logic;
+      i_X : in std_logic_vector(N - 1 downto 0);
+      i_Y : in std_logic_vector(N - 1 downto 0);
+      o_S : out std_logic_vector(N - 1 downto 0);
+      o_C : out std_logic
+    );
+  end component;
+
+  signal A_gated, B_operand : std_logic_vector(N - 1 downto 0);
+  signal PassImm, Subtract  : std_logic;
+  signal B_inverted         : std_logic_vector(N - 1 downto 0);
+  signal B_selected         : std_logic_vector(N - 1 downto 0);
+
+begin
+
+  PassImm  <= i_nAdd_Sub and i_ALUSrc;
+  Subtract <= i_nAdd_Sub and not i_ALUSrc;
+
+  Gate_A : for i in 0 to N - 1 generate
+    A_gated(i) <= i_A(i) and not PassImm;
+  end generate;
+  OperandMux : mux2t1_N
+  generic map(N => N)
+  port map
+  (
+    i_S  => i_ALUSrc,
+    i_D0 => i_B,
+    i_D1 => i_Imm,
+    o_O  => B_operand
+  );
+
+  INV_B : OnesComp
+  generic map(N => N)
+  port map
+  (
+    i_A => B_operand,
+    o_F => B_inverted
+  );
+
+  B_MUX : mux2t1_N
+  generic map(N => N)
+  port map
+  (
+    i_S  => Subtract,
+    i_D0 => B_operand,
+    i_D1 => B_inverted,
+    o_O  => B_selected
+  );
+
+  NBIT_ADDER : Adder_nbit
+  generic map(N => N)
+  port map
+  (
+    i_C => Subtract,
+    i_X => A_gated,
+    i_Y => B_selected,
+    o_S => o_S,
+    o_C => open
+  );
+
+end mixture;

@@ -1,0 +1,22 @@
+/home/sayonsn/CPRE3810/lab2/Lab2/src/Memory/mem.vhd {2 {vcom -work work -2002 -explicit -vopt -stats=none /home/sayonsn/CPRE3810/lab2/Lab2/src/Memory/mem.vhd
+QuestaSim-64 vcom 2026.2 Compiler 2026.05 May 18 2026
+** Warning: (vcom-223) The environment variable MGC_HOME will be deprecated in future releases. Please use QSIM_HOME instead.
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity mem
+-- Compiling architecture rtl of mem
+
+} {} {}} /home/sayonsn/CPRE3810/lab2/Lab2/src/Memory/tb_dmem.vhd {2 {vcom -work work -2002 -explicit -vopt -stats=none /home/sayonsn/CPRE3810/lab2/Lab2/src/Memory/tb_dmem.vhd
+QuestaSim-64 vcom 2026.2 Compiler 2026.05 May 18 2026
+** Warning: (vcom-223) The environment variable MGC_HOME will be deprecated in future releases. Please use QSIM_HOME instead.
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity tb_dmem
+-- Compiling architecture mixture of tb_dmem
+-- Loading entity mem
+
+} {} {}}

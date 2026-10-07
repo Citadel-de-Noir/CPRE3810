@@ -1,0 +1,100 @@
+/home/sayonsn/CPRE3810/lab2/Lab2/src/RegFile/reg_nbit.vhd {2 {vcom -work work -2002 -explicit -vopt -stats=none /home/sayonsn/CPRE3810/lab2/Lab2/src/RegFile/reg_nbit.vhd
+QuestaSim-64 vcom 2026.2 Compiler 2026.05 May 18 2026
+** Warning: (vcom-223) The environment variable MGC_HOME will be deprecated in future releases. Please use QSIM_HOME instead.
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity reg_nbit
+-- Compiling architecture Structural of reg_nbit
+
+} {} {}} /home/sayonsn/CPRE3810/lab2/Lab2/src/RegFile/reg_file_tb.vhd {2 {vcom -work work -2002 -explicit -vopt -stats=none /home/sayonsn/CPRE3810/lab2/Lab2/src/RegFile/reg_file_tb.vhd
+QuestaSim-64 vcom 2026.2 Compiler 2026.05 May 18 2026
+** Warning: (vcom-223) The environment variable MGC_HOME will be deprecated in future releases. Please use QSIM_HOME instead.
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity reg_file_tb
+-- Compiling architecture behavior of reg_file_tb
+
+} {} {}} /home/sayonsn/CPRE3810/lab2/Lab2/src/RegFile/dffg.vhd {2 {vcom -work work -2002 -explicit -vopt -stats=none /home/sayonsn/CPRE3810/lab2/Lab2/src/RegFile/dffg.vhd
+QuestaSim-64 vcom 2026.2 Compiler 2026.05 May 18 2026
+** Warning: (vcom-223) The environment variable MGC_HOME will be deprecated in future releases. Please use QSIM_HOME instead.
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity dffg
+-- Compiling architecture mixed of dffg
+
+} {} {}} /home/sayonsn/CPRE3810/lab2/Lab2/src/RegFile/reg_nbit_tb.vhd {2 {vcom -work work -2002 -explicit -vopt -stats=none /home/sayonsn/CPRE3810/lab2/Lab2/src/RegFile/reg_nbit_tb.vhd
+QuestaSim-64 vcom 2026.2 Compiler 2026.05 May 18 2026
+** Warning: (vcom-223) The environment variable MGC_HOME will be deprecated in future releases. Please use QSIM_HOME instead.
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity tb_reg_nbit
+-- Compiling architecture mixture of tb_reg_nbit
+-- Loading entity reg_nbit
+
+} {} {}} /home/sayonsn/CPRE3810/lab2/Lab2/src/RegFile/decoder_5t32.vhd {2 {vcom -work work -2002 -explicit -vopt -stats=none /home/sayonsn/CPRE3810/lab2/Lab2/src/RegFile/decoder_5t32.vhd
+QuestaSim-64 vcom 2026.2 Compiler 2026.05 May 18 2026
+** Warning: (vcom-223) The environment variable MGC_HOME will be deprecated in future releases. Please use QSIM_HOME instead.
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity decoder_5t32
+-- Compiling architecture dataflow of decoder_5t32
+
+} {} {}} /home/sayonsn/CPRE3810/lab2/Lab2/src/RegFile/mux_32t1.vhd {2 {vcom -work work -2002 -explicit -vopt -stats=none /home/sayonsn/CPRE3810/lab2/Lab2/src/RegFile/mux_32t1.vhd
+QuestaSim-64 vcom 2026.2 Compiler 2026.05 May 18 2026
+** Warning: (vcom-223) The environment variable MGC_HOME will be deprecated in future releases. Please use QSIM_HOME instead.
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package mux_32b_data
+-- Compiling entity mux_32t1
+-- Compiling architecture dataflow of mux_32t1
+** Warning: /home/sayonsn/CPRE3810/lab2/Lab2/src/RegFile/mux_32t1.vhd(48): (vcom-1272) Length of expected is 32; length of actual is 8.
+
+} {} {}} /home/sayonsn/CPRE3810/lab2/Lab2/src/RegFile/decoder_5t32_tb.vhd {2 {vcom -work work -2002 -explicit -vopt -stats=none /home/sayonsn/CPRE3810/lab2/Lab2/src/RegFile/decoder_5t32_tb.vhd
+QuestaSim-64 vcom 2026.2 Compiler 2026.05 May 18 2026
+** Warning: (vcom-223) The environment variable MGC_HOME will be deprecated in future releases. Please use QSIM_HOME instead.
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity decoder_5t32_tb
+-- Compiling architecture behavior of decoder_5t32_tb
+-- Loading entity decoder_5t32
+
+} {} {}} /home/sayonsn/CPRE3810/lab2/Lab2/src/RegFile/mux_32t1_tb.vhd {2 {vcom -work work -2002 -explicit -vopt -stats=none /home/sayonsn/CPRE3810/lab2/Lab2/src/RegFile/mux_32t1_tb.vhd
+QuestaSim-64 vcom 2026.2 Compiler 2026.05 May 18 2026
+** Warning: (vcom-223) The environment variable MGC_HOME will be deprecated in future releases. Please use QSIM_HOME instead.
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package mux_32b_data
+-- Compiling entity mux_32t1_tb
+-- Compiling architecture mixture of mux_32t1_tb
+-- Loading entity mux_32t1
+
+} {} {}} /home/sayonsn/CPRE3810/lab2/Lab2/src/RegFile/mux_32b_data.vhd {2 {vcom -work work -2002 -explicit -vopt -stats=none /home/sayonsn/CPRE3810/lab2/Lab2/src/RegFile/mux_32b_data.vhd
+QuestaSim-64 vcom 2026.2 Compiler 2026.05 May 18 2026
+** Warning: (vcom-223) The environment variable MGC_HOME will be deprecated in future releases. Please use QSIM_HOME instead.
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling package mux_32b_data
+
+} {} {}} /home/sayonsn/CPRE3810/lab2/Lab2/src/RegFile/reg_file.vhd {2 {vcom -work work -2002 -explicit -vopt -stats=none /home/sayonsn/CPRE3810/lab2/Lab2/src/RegFile/reg_file.vhd
+QuestaSim-64 vcom 2026.2 Compiler 2026.05 May 18 2026
+** Warning: (vcom-223) The environment variable MGC_HOME will be deprecated in future releases. Please use QSIM_HOME instead.
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package mux_32b_data
+-- Compiling entity reg_file
+-- Compiling architecture structural of reg_file
+-- Loading entity decoder_5t32
+-- Loading entity reg_nbit
+-- Loading entity mux_32t1
+
+} {} {}}

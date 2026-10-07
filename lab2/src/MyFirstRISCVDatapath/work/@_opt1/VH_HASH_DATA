@@ -1,0 +1,107 @@
+[N
+10
+7
+10 adder_nbit
+8
+7 mixture
+6
+8 onescomp
+5
+8 mux2t1_n
+4
+1 N
+9
+10 addsub_mod
+2
+8 reg_nbit
+3
+10 structural
+10
+8 datapath
+1
+62 /home/sayonsn/CPRE3810/lab2/Lab2/src/MyFirstRISCVDatapath/work
+]
+[G
+1
+6
+3
+1
+4
+1
+0
+32
+0
+0 0
+0
+0
+]
+[G
+1
+5
+3
+1
+4
+1
+0
+32
+0
+0 0
+0
+0
+]
+[G
+1
+7
+8
+1
+4
+1
+0
+32
+0
+0 0
+0
+0
+]
+[G
+1
+2
+3
+1
+4
+1
+0
+32
+0
+0 0
+0
+0
+]
+[G
+1
+10
+3
+1
+4
+1
+0
+32
+0
+0 0
+0
+0
+]
+[G
+1
+9
+8
+1
+4
+1
+0
+32
+0
+0 0
+0
+0
+]
