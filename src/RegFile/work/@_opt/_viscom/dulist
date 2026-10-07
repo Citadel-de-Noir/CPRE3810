@@ -1,0 +1,7 @@
+2 12 mux_32b_data 4 fast 49 /home/sayonsn/CPRE3810/lab2/Lab2/src/RegFile/work 0 80 0 0 10 0
+2 12 decoder_5t32 8 dataflow 49 /home/sayonsn/CPRE3810/lab2/Lab2/src/RegFile/work 1 65 0 0 76 0
+2 4 dffg 5 mixed 49 /home/sayonsn/CPRE3810/lab2/Lab2/src/RegFile/work 1 65 0 0 27 0
+2 8 reg_nbit 10 structural 49 /home/sayonsn/CPRE3810/lab2/Lab2/src/RegFile/work 1 65 0 0 89 0
+2 8 mux_32t1 8 dataflow 49 /home/sayonsn/CPRE3810/lab2/Lab2/src/RegFile/work 1 65 0 0 142 0
+1 8 reg_file 10 structural 49 /home/sayonsn/CPRE3810/lab2/Lab2/src/RegFile/work 1 65 0 0 412 0
+2 11 reg_file_tb 8 behavior 49 /home/sayonsn/CPRE3810/lab2/Lab2/src/RegFile/work 1 65 0 0 137 0

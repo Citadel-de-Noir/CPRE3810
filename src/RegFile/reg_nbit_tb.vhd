@@ -1,0 +1,64 @@
+library IEEE;
+use IEEE.std_logic_1164.all;
+
+entity tb_reg_nbit is
+	generic(gCLK_HPER : time := 50 ns);
+end tb_reg_nbit;
+
+
+architecture mixture of tb_reg_nbit is
+	constant N : integer := 32;
+	constant cCLK_PER : time := gCLK_HPER * 2;
+	signal  s_CLK, s_RST, s_WE : std_logic;
+	signal s_D, s_Q : std_logic_vector(N-1 downto 0);
+
+begin
+	DUT : entity work.reg_nbit
+        generic map (N => 32)
+        port map (
+            i_CLK => s_CLK,
+            i_RST => s_RST,
+            i_WE  => s_WE,
+            i_D   => s_D,
+            o_Q   => s_Q
+        );
+
+    P_CLK : process
+    begin
+        s_CLK <= '0';
+        wait for gCLK_HPER;
+        s_CLK <= '1';
+        wait for gCLK_HPER;
+    end process;
+
+    P_TB : process
+    begin
+        -- Reset.
+        s_RST <= '1';
+        s_WE  <= '0';
+        s_D   <= x"00000000";
+        wait for cCLK_PER;
+
+        -- Store 5.
+        s_RST <= '0';
+        s_WE  <= '1';
+        s_D   <= x"00000005";
+        wait for cCLK_PER;
+
+        -- Keep 5, even though the input changes to 10.
+        s_WE <= '0';
+        s_D  <= x"0000000A";
+        wait for cCLK_PER;
+
+        -- Store 10.
+        s_WE <= '1';
+        wait for cCLK_PER;
+
+        -- Reset back to zero.
+        s_RST <= '1';
+        wait for cCLK_PER;
+
+        wait;
+    end process;
+end mixture;
+

@@ -1,0 +1,786 @@
+m255
+K4
+z2
+!s12c _opt1
+Z0 !s99 nomlopt
+Z1 !s12c _opt
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+!s11e vcom 2026.2 2026.05, May 18 2026
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z2 d/home/sayonsn/CPRE3810/lab2/Lab2/src/RegFile
+T_opt
+!i145 1
+!i144 0
+!s110 1790558848
+V8FETFED_77dfQl=^T`9d[1
+Z3 04 11 8 work datapath_tb behavior 1
+=1-005056b69b39-6ab9c27f-f0f5a-174c7
+R0
+Z4 !s12f OEM100
+Z5 !s12b OEM100
+Z6 !s124 OEM100
+Z7 !s135 nogc
+!i152 0
+o-quiet -auto_acc_if_foreign -work work +acc
+Z8 tCvgOpt 0
+n@_opt
+Z9 OL;O;2026.2;84
+R2
+T_opt1
+!i145 1
+!i144 0
+!s110 1790561034
+VZNSd3nDg@BMGaLgGUP3F73
+R3
+=1-005056b69b39-6ab9cb0a-40b40-17e37
+R0
+R4
+R5
+R6
+R7
+!i152 0
+o-quiet -auto_acc_if_foreign -work work
+R8
+n@_opt1
+R9
+Eadder
+Z10 w1788808339
+Z11 DPx3 std 6 textio 0 22 <UlP6K1@RDQa_MJ[:UEnP2
+Z12 DPx4 ieee 14 std_logic_1164 0 22 TDbGXLH=YSoj9JRY2gkNY0
+!i122 172
+Z13 d/home/sayonsn/CPRE3810/lab2/Lab2/src/MyFirstRISCVDatapath
+Z14 8/home/sayonsn/CPRE3810/lab2/Lab2/src/MyFirstRISCVDatapath/Adder.vhd
+Z15 F/home/sayonsn/CPRE3810/lab2/Lab2/src/MyFirstRISCVDatapath/Adder.vhd
+l0
+L15 1
+VgXhVglWZ?:d?T46^680lh1
+!s100 Kc^lG0Z6<6_V<8a6HE:C`2
+Z16 OL;C;2026.2;84
+32
+Z17 !s110 1790559678
+!i10b 1
+Z18 !s108 1790559678.000000
+Z19 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|/home/sayonsn/CPRE3810/lab2/Lab2/src/MyFirstRISCVDatapath/Adder.vhd|
+Z20 !s107 /home/sayonsn/CPRE3810/lab2/Lab2/src/MyFirstRISCVDatapath/Adder.vhd|
+!i113 0
+Z21 o-work work -2002 -explicit
+Z22 tExplicit 1 CvgOpt 0
+Amixture
+R11
+R12
+DEx4 work 5 adder 0 22 gXhVglWZ?:d?T46^680lh1
+!i122 172
+l54
+L25 66
+VIFgEad5L:=[AVOKgV]^i33
+!s100 `MliBdBlo0[F;V@5HeTz^0
+R16
+32
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 0
+R21
+R22
+Eadder_nbit
+Z23 w1788811263
+R11
+R12
+!i122 175
+R13
+Z24 8/home/sayonsn/CPRE3810/lab2/Lab2/src/MyFirstRISCVDatapath/Adder_nbit.vhd
+Z25 F/home/sayonsn/CPRE3810/lab2/Lab2/src/MyFirstRISCVDatapath/Adder_nbit.vhd
+l0
+L14 1
+V8>QT<^z3zTAd`?PIlSW492
+!s100 6GGh=MW3[>a>>a6mBX;G>3
+R16
+32
+R17
+!i10b 1
+R18
+Z26 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|/home/sayonsn/CPRE3810/lab2/Lab2/src/MyFirstRISCVDatapath/Adder_nbit.vhd|
+Z27 !s107 /home/sayonsn/CPRE3810/lab2/Lab2/src/MyFirstRISCVDatapath/Adder_nbit.vhd|
+!i113 0
+R21
+R22
+Amixture
+R11
+R12
+DEx4 work 10 adder_nbit 0 22 8>QT<^z3zTAd`?PIlSW492
+!i122 175
+l40
+L26 31
+VT6`@??QB>o5;_^am1kRaj2
+!s100 22Sml:a9>lK3bT4`7UIlF3
+R16
+32
+R17
+!i10b 1
+R18
+R26
+R27
+!i113 0
+R21
+R22
+Eaddsub_mod
+Z28 w1790558810
+R11
+R12
+!i122 182
+R13
+Z29 8/home/sayonsn/CPRE3810/lab2/Lab2/src/MyFirstRISCVDatapath/AddSub_mod.vhd
+Z30 F/home/sayonsn/CPRE3810/lab2/Lab2/src/MyFirstRISCVDatapath/AddSub_mod.vhd
+l0
+Z31 L12 1
+ViTDH4k<_E@]zkEMBOKN6Q1
+!s100 oVFd9m<[:XB9VOK`h0eh70
+R16
+32
+R17
+!i10b 1
+R18
+Z32 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|/home/sayonsn/CPRE3810/lab2/Lab2/src/MyFirstRISCVDatapath/AddSub_mod.vhd|
+Z33 !s107 /home/sayonsn/CPRE3810/lab2/Lab2/src/MyFirstRISCVDatapath/AddSub_mod.vhd|
+!i113 0
+R21
+R22
+Amixture
+R11
+R12
+Z34 DEx4 work 10 addsub_mod 0 22 iTDH4k<_E@]zkEMBOKN6Q1
+!i122 182
+l65
+L26 87
+VGL015R^g@07PMRKEVF6M_1
+!s100 5?69e0MViV[c7J4KioTF?2
+R16
+32
+R17
+!i10b 1
+R18
+R32
+R33
+!i113 0
+R21
+R22
+Eandg2
+Z35 w1788814487
+R11
+R12
+!i122 167
+R13
+Z36 8/home/sayonsn/CPRE3810/lab2/Lab2/src/MyFirstRISCVDatapath/andg2.vhd
+Z37 F/home/sayonsn/CPRE3810/lab2/Lab2/src/MyFirstRISCVDatapath/andg2.vhd
+l0
+Z38 L23 1
+VlRF1X2AR494<^2b5EczMG2
+!s100 YT?bGzEmcFo:DlnoC^B4_0
+R16
+32
+Z39 !s110 1790559677
+!i10b 1
+Z40 !s108 1790559677.000000
+Z41 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|/home/sayonsn/CPRE3810/lab2/Lab2/src/MyFirstRISCVDatapath/andg2.vhd|
+Z42 !s107 /home/sayonsn/CPRE3810/lab2/Lab2/src/MyFirstRISCVDatapath/andg2.vhd|
+!i113 0
+R21
+R22
+Adataflow
+R11
+R12
+DEx4 work 5 andg2 0 22 lRF1X2AR494<^2b5EczMG2
+!i122 167
+l32
+Z43 L31 6
+V;W?oPbX<ObC2SkM60=NoE2
+!s100 I`@Z@UBObS]<7m8bPgKUS1
+R16
+32
+R39
+!i10b 1
+R40
+R41
+R42
+!i113 0
+R21
+R22
+Edatapath
+Z44 w1790540641
+R11
+R12
+!i122 183
+R13
+Z45 8/home/sayonsn/CPRE3810/lab2/Lab2/src/MyFirstRISCVDatapath/datapath.vhd
+Z46 F/home/sayonsn/CPRE3810/lab2/Lab2/src/MyFirstRISCVDatapath/datapath.vhd
+l0
+L11 1
+VnI2SJd5Qo9^<Kj@HVCUAI1
+!s100 M9STI[]9=nkVJ=6ghdS`32
+R16
+32
+R17
+!i10b 1
+R18
+Z47 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|/home/sayonsn/CPRE3810/lab2/Lab2/src/MyFirstRISCVDatapath/datapath.vhd|
+Z48 !s107 /home/sayonsn/CPRE3810/lab2/Lab2/src/MyFirstRISCVDatapath/datapath.vhd|
+!i113 0
+R21
+R22
+Astructural
+R34
+Z49 DPx4 work 12 mux_32b_data 0 22 QCg2V`El^:?AC6>IA3A?_2
+Z50 DEx4 work 8 reg_file 0 22 34z:>fcU:TTfBFd1RXKMN1
+R11
+R12
+Z51 DEx4 work 8 datapath 0 22 nI2SJd5Qo9^<Kj@HVCUAI1
+!i122 183
+l33
+L30 36
+VP;G7k3`Om;<HQaHBQb=b>2
+!s100 `6k^ReACoYAJgZ`dnNdga2
+R16
+32
+R17
+!i10b 1
+R18
+R47
+R48
+!i113 0
+R21
+R22
+Edatapath_tb
+Z52 w1790539942
+R11
+R12
+!i122 184
+R13
+Z53 8/home/sayonsn/CPRE3810/lab2/Lab2/src/MyFirstRISCVDatapath/datapath_tb.vhd
+Z54 F/home/sayonsn/CPRE3810/lab2/Lab2/src/MyFirstRISCVDatapath/datapath_tb.vhd
+l0
+R31
+VPYa?M]Y:mmC;6ZggADNRD1
+!s100 f1[OcaTm5JMDLd`@:M?>81
+R16
+32
+R17
+!i10b 1
+R18
+Z55 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|/home/sayonsn/CPRE3810/lab2/Lab2/src/MyFirstRISCVDatapath/datapath_tb.vhd|
+Z56 !s107 /home/sayonsn/CPRE3810/lab2/Lab2/src/MyFirstRISCVDatapath/datapath_tb.vhd|
+!i113 0
+R21
+R22
+Abehavior
+R51
+R11
+R12
+DEx4 work 11 datapath_tb 0 22 PYa?M]Y:mmC;6ZggADNRD1
+!i122 184
+l22
+L15 240
+V[jL[DU5j;:C4E<>>MPENn2
+!s100 Vce?QaieC4U6C0;TS2Rg60
+R16
+32
+R17
+!i10b 1
+R18
+R55
+R56
+!i113 0
+R21
+R22
+Edecoder_5t32
+Z57 w1789674053
+R11
+R12
+!i122 178
+R13
+Z58 8/home/sayonsn/CPRE3810/lab2/Lab2/src/MyFirstRISCVDatapath/decoder_5t32.vhd
+Z59 F/home/sayonsn/CPRE3810/lab2/Lab2/src/MyFirstRISCVDatapath/decoder_5t32.vhd
+l0
+L4 1
+V=FSRn:0l_edT1iTlSI84?0
+!s100 iOVH^<FR@X;[aMb`Xag=J3
+R16
+32
+R17
+!i10b 1
+R18
+Z60 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|/home/sayonsn/CPRE3810/lab2/Lab2/src/MyFirstRISCVDatapath/decoder_5t32.vhd|
+Z61 !s107 /home/sayonsn/CPRE3810/lab2/Lab2/src/MyFirstRISCVDatapath/decoder_5t32.vhd|
+!i113 0
+R21
+R22
+Adataflow
+R11
+R12
+Z62 DEx4 work 12 decoder_5t32 0 22 =FSRn:0l_edT1iTlSI84?0
+!i122 178
+l12
+L11 38
+VY:nEo[CW]o>l33eE`AD2W3
+!s100 Cbl`C2LckHQlKFz93[ej<1
+R16
+32
+R17
+!i10b 1
+R18
+R60
+R61
+!i113 0
+R21
+R22
+Edffg
+Z63 w1789670252
+R11
+R12
+!i122 179
+R13
+Z64 8/home/sayonsn/CPRE3810/lab2/Lab2/src/MyFirstRISCVDatapath/dffg.vhd
+Z65 F/home/sayonsn/CPRE3810/lab2/Lab2/src/MyFirstRISCVDatapath/dffg.vhd
+l0
+R38
+VO[DkoENVW8ThWLazJ2:Wj3
+!s100 FNgJ_gOZGXNjkIUY1j0hB1
+R16
+32
+R17
+!i10b 1
+R18
+Z66 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|/home/sayonsn/CPRE3810/lab2/Lab2/src/MyFirstRISCVDatapath/dffg.vhd|
+Z67 !s107 /home/sayonsn/CPRE3810/lab2/Lab2/src/MyFirstRISCVDatapath/dffg.vhd|
+!i113 0
+R21
+R22
+Amixed
+R11
+R12
+DEx4 work 4 dffg 0 22 O[DkoENVW8ThWLazJ2:Wj3
+!i122 179
+l38
+L34 29
+V^h08kVGi32OHEdEMbCFM[2
+!s100 _oZ0n?[683VBbSaa3W<f]2
+R16
+32
+R17
+!i10b 1
+R18
+R66
+R67
+!i113 0
+R21
+R22
+Einvg
+Z68 w1788814507
+R11
+R12
+!i122 168
+R13
+Z69 8/home/sayonsn/CPRE3810/lab2/Lab2/src/MyFirstRISCVDatapath/invg.vhd
+Z70 F/home/sayonsn/CPRE3810/lab2/Lab2/src/MyFirstRISCVDatapath/invg.vhd
+l0
+R38
+Vi?8K<J8fz^65hSl<BCJfc2
+!s100 _XK?_^5z0Rm1<k12?;5R?2
+R16
+32
+R39
+!i10b 1
+R40
+Z71 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|/home/sayonsn/CPRE3810/lab2/Lab2/src/MyFirstRISCVDatapath/invg.vhd|
+Z72 !s107 /home/sayonsn/CPRE3810/lab2/Lab2/src/MyFirstRISCVDatapath/invg.vhd|
+!i113 0
+R21
+R22
+Adataflow
+R11
+R12
+DEx4 work 4 invg 0 22 i?8K<J8fz^65hSl<BCJfc2
+!i122 168
+l31
+L30 6
+V59WL2G3_iU9D3YcIf[eGI1
+!s100 bk7I76o8e1LURdoZEQb8H0
+R16
+32
+R39
+!i10b 1
+R40
+R71
+R72
+!i113 0
+R21
+R22
+Emux
+Z73 w1788466640
+R11
+R12
+!i122 173
+R13
+Z74 8/home/sayonsn/CPRE3810/lab2/Lab2/src/MyFirstRISCVDatapath/mux.vhd
+Z75 F/home/sayonsn/CPRE3810/lab2/Lab2/src/MyFirstRISCVDatapath/mux.vhd
+l0
+L18 1
+V9ePCnbK7i<_D1?m``QHK=3
+!s100 5fa2VLo3l9Xe3MS]0HLR21
+R16
+32
+R17
+!i10b 1
+R18
+Z76 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|/home/sayonsn/CPRE3810/lab2/Lab2/src/MyFirstRISCVDatapath/mux.vhd|
+Z77 !s107 /home/sayonsn/CPRE3810/lab2/Lab2/src/MyFirstRISCVDatapath/mux.vhd|
+!i113 0
+R21
+R22
+Astructural
+R11
+R12
+DEx4 work 3 mux 0 22 9ePCnbK7i<_D1?m``QHK=3
+!i122 173
+l53
+L27 61
+V2hAAQfBcR5UZ[L<CG7YYg1
+!s100 eDk>U1o7[V[>Abl@h4[OD2
+R16
+32
+R17
+!i10b 1
+R18
+R76
+R77
+!i113 0
+R21
+R22
+Emux2t1_n
+Z78 w1788467305
+R11
+R12
+!i122 174
+R13
+Z79 8/home/sayonsn/CPRE3810/lab2/Lab2/src/MyFirstRISCVDatapath/mux2t1_N.vhd
+Z80 F/home/sayonsn/CPRE3810/lab2/Lab2/src/MyFirstRISCVDatapath/mux2t1_N.vhd
+l0
+L21 1
+VM8T<c;Tz[NGf;2CK7ST]L3
+!s100 6WH1kRd<eiGeF78;iL:LL0
+R16
+32
+R17
+!i10b 1
+R18
+Z81 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|/home/sayonsn/CPRE3810/lab2/Lab2/src/MyFirstRISCVDatapath/mux2t1_N.vhd|
+Z82 !s107 /home/sayonsn/CPRE3810/lab2/Lab2/src/MyFirstRISCVDatapath/mux2t1_N.vhd|
+!i113 0
+R21
+R22
+Astructural
+R11
+R12
+DEx4 work 8 mux2t1_n 0 22 M8T<c;Tz[NGf;2CK7ST]L3
+!i122 174
+l39
+L30 21
+VjV]I:gRHIKZedBBPfaGT83
+!s100 o``7^OKHajHTlPZAa_JW93
+R16
+32
+R17
+!i10b 1
+R18
+R81
+R82
+!i113 0
+R21
+R22
+Pmux_32b_data
+R11
+R12
+!i122 176
+w1789953093
+R13
+8/home/sayonsn/CPRE3810/lab2/Lab2/src/MyFirstRISCVDatapath/mux_32b_data.vhd
+F/home/sayonsn/CPRE3810/lab2/Lab2/src/MyFirstRISCVDatapath/mux_32b_data.vhd
+l0
+L4 4
+VQCg2V`El^:?AC6>IA3A?_2
+!s100 S2MmS9e7aSQSR<ZJh`0c^3
+R16
+32
+R17
+!i10b 1
+R18
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|/home/sayonsn/CPRE3810/lab2/Lab2/src/MyFirstRISCVDatapath/mux_32b_data.vhd|
+!s107 /home/sayonsn/CPRE3810/lab2/Lab2/src/MyFirstRISCVDatapath/mux_32b_data.vhd|
+!i113 0
+R21
+R22
+Emux_32t1
+Z83 w1789677370
+R49
+R11
+R12
+!i122 177
+R13
+Z84 8/home/sayonsn/CPRE3810/lab2/Lab2/src/MyFirstRISCVDatapath/mux_32t1.vhd
+Z85 F/home/sayonsn/CPRE3810/lab2/Lab2/src/MyFirstRISCVDatapath/mux_32t1.vhd
+l0
+L5 1
+V6ITD0I?I?<nPWINzl7E5_1
+!s100 ];99;Y95DiUGF;32VR64_1
+R16
+32
+R17
+!i10b 1
+R18
+Z86 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|/home/sayonsn/CPRE3810/lab2/Lab2/src/MyFirstRISCVDatapath/mux_32t1.vhd|
+Z87 !s107 /home/sayonsn/CPRE3810/lab2/Lab2/src/MyFirstRISCVDatapath/mux_32t1.vhd|
+!i113 0
+R21
+R22
+Adataflow
+R49
+R11
+R12
+Z88 DEx4 work 8 mux_32t1 0 22 6ITD0I?I?<nPWINzl7E5_1
+!i122 177
+l14
+L13 37
+V4F9omIa]2;0Z8YIOBEPD>3
+!s100 2@M8:TZ`Td8ZX<c9:bJXS1
+R16
+32
+R17
+!i10b 1
+R18
+R86
+R87
+!i113 0
+R21
+R22
+Eonescomp
+Z89 w1788811232
+R11
+R12
+!i122 171
+R13
+Z90 8/home/sayonsn/CPRE3810/lab2/Lab2/src/MyFirstRISCVDatapath/OnesComp.vhd
+Z91 F/home/sayonsn/CPRE3810/lab2/Lab2/src/MyFirstRISCVDatapath/OnesComp.vhd
+l0
+L13 1
+V_2Z87Gf`aH]7Z>7G3BY`21
+!s100 JSnhYHX2A;k<2UK4hJFMC2
+R16
+32
+R39
+!i10b 1
+R40
+Z92 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|/home/sayonsn/CPRE3810/lab2/Lab2/src/MyFirstRISCVDatapath/OnesComp.vhd|
+Z93 !s107 /home/sayonsn/CPRE3810/lab2/Lab2/src/MyFirstRISCVDatapath/OnesComp.vhd|
+!i113 0
+R21
+R22
+Astructural
+R11
+R12
+DEx4 work 8 onescomp 0 22 _2Z87Gf`aH]7Z>7G3BY`21
+!i122 171
+l30
+L22 18
+VDH4jWjZ_0nVU?J19G1_;?1
+!s100 4O^GFfAc9VQOmGjeaC91F2
+R16
+32
+R39
+!i10b 1
+R40
+R92
+R93
+!i113 0
+R21
+R22
+Eorg2
+Z94 w1788814495
+R11
+R12
+!i122 169
+R13
+Z95 8/home/sayonsn/CPRE3810/lab2/Lab2/src/MyFirstRISCVDatapath/org2.vhd
+Z96 F/home/sayonsn/CPRE3810/lab2/Lab2/src/MyFirstRISCVDatapath/org2.vhd
+l0
+R38
+VB2]3[a<V5f9`9eUg6`KhC1
+!s100 bGQ1F9eW^Q17OoL9h4g7z2
+R16
+32
+R39
+!i10b 1
+R40
+Z97 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|/home/sayonsn/CPRE3810/lab2/Lab2/src/MyFirstRISCVDatapath/org2.vhd|
+Z98 !s107 /home/sayonsn/CPRE3810/lab2/Lab2/src/MyFirstRISCVDatapath/org2.vhd|
+!i113 0
+R21
+R22
+Adataflow
+R11
+R12
+DEx4 work 4 org2 0 22 B2]3[a<V5f9`9eUg6`KhC1
+!i122 169
+l32
+R43
+VkAR2[YaYRaj6fWNP]W0nE3
+!s100 h5_AzR3TdRA0a_K=dQ>mI2
+R16
+32
+R39
+!i10b 1
+R40
+R97
+R98
+!i113 0
+R21
+R22
+Ereg_file
+Z99 w1789969479
+R49
+R11
+R12
+!i122 181
+R13
+Z100 8/home/sayonsn/CPRE3810/lab2/Lab2/src/MyFirstRISCVDatapath/reg_file.vhd
+Z101 F/home/sayonsn/CPRE3810/lab2/Lab2/src/MyFirstRISCVDatapath/reg_file.vhd
+l0
+L5 1
+V34z:>fcU:TTfBFd1RXKMN1
+!s100 XWRh]5a`R@D2a@l8i3ibO2
+R16
+32
+R17
+!i10b 1
+R18
+Z102 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|/home/sayonsn/CPRE3810/lab2/Lab2/src/MyFirstRISCVDatapath/reg_file.vhd|
+Z103 !s107 /home/sayonsn/CPRE3810/lab2/Lab2/src/MyFirstRISCVDatapath/reg_file.vhd|
+!i113 0
+R21
+R22
+Astructural
+R88
+Z104 DEx4 work 8 reg_nbit 0 22 ojC?YQ7E_MWX4U2PS2C]?0
+R62
+R49
+R11
+R12
+R50
+!i122 181
+l19
+L14 43
+VO390A47bR2LM2_@D1O_TG1
+!s100 9ml_DB_8eHRb@Dj?gV=>D1
+R16
+32
+R17
+!i10b 1
+R18
+R102
+R103
+!i113 0
+R21
+R22
+Ereg_nbit
+Z105 w1789670283
+R11
+R12
+!i122 180
+R13
+Z106 8/home/sayonsn/CPRE3810/lab2/Lab2/src/MyFirstRISCVDatapath/reg_nbit.vhd
+Z107 F/home/sayonsn/CPRE3810/lab2/Lab2/src/MyFirstRISCVDatapath/reg_nbit.vhd
+l0
+R31
+VojC?YQ7E_MWX4U2PS2C]?0
+!s100 7DJiRn4OkOKMBY1Aj;Yj<1
+R16
+32
+R17
+!i10b 1
+R18
+Z108 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|/home/sayonsn/CPRE3810/lab2/Lab2/src/MyFirstRISCVDatapath/reg_nbit.vhd|
+Z109 !s107 /home/sayonsn/CPRE3810/lab2/Lab2/src/MyFirstRISCVDatapath/reg_nbit.vhd|
+!i113 0
+R21
+R22
+Astructural
+R11
+R12
+R104
+!i122 180
+l35
+L24 24
+Vd3ezen8[UiTZG77<AdVT43
+!s100 ^MY2K:[NPS?aZKh`faD^Z0
+R16
+32
+R17
+!i10b 1
+R18
+R108
+R109
+!i113 0
+R21
+R22
+Exorg2
+Z110 w1788814500
+R11
+R12
+!i122 170
+R13
+Z111 8/home/sayonsn/CPRE3810/lab2/Lab2/src/MyFirstRISCVDatapath/xorg2.vhd
+Z112 F/home/sayonsn/CPRE3810/lab2/Lab2/src/MyFirstRISCVDatapath/xorg2.vhd
+l0
+R38
+V]nRm43OKZ32f958@JoPK80
+!s100 [hI[mXFH4_j16U;>U1Lfn2
+R16
+32
+R39
+!i10b 1
+R40
+Z113 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|/home/sayonsn/CPRE3810/lab2/Lab2/src/MyFirstRISCVDatapath/xorg2.vhd|
+Z114 !s107 /home/sayonsn/CPRE3810/lab2/Lab2/src/MyFirstRISCVDatapath/xorg2.vhd|
+!i113 0
+R21
+R22
+Adataflow
+R11
+R12
+DEx4 work 5 xorg2 0 22 ]nRm43OKZ32f958@JoPK80
+!i122 170
+l32
+R43
+Vgh7bYI5aJE]odJ7>7;=<U3
+!s100 Z6[FAPS4fBLB`F?OO<AY72
+R16
+32
+R39
+!i10b 1
+R40
+R113
+R114
+!i113 0
+R21
+R22

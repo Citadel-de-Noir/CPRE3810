@@ -1,0 +1,20 @@
+/home/sayonsn/CPRE3810/lab2/Lab2/src/Extenders/extenders.vhd {2 {vcom -work work -2002 -explicit -vopt -stats=none /home/sayonsn/CPRE3810/lab2/Lab2/src/Extenders/extenders.vhd
+QuestaSim-64 vcom 2026.2 Compiler 2026.05 May 18 2026
+** Warning: (vcom-223) The environment variable MGC_HOME will be deprecated in future releases. Please use QSIM_HOME instead.
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity extend_n
+-- Compiling architecture dataflow of extend_n
+
+} {} {}} /home/sayonsn/CPRE3810/lab2/Lab2/src/Extenders/tb_extenders.vhd {2 {vcom -work work -2002 -explicit -vopt -stats=none /home/sayonsn/CPRE3810/lab2/Lab2/src/Extenders/tb_extenders.vhd
+QuestaSim-64 vcom 2026.2 Compiler 2026.05 May 18 2026
+** Warning: (vcom-223) The environment variable MGC_HOME will be deprecated in future releases. Please use QSIM_HOME instead.
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity tb_extenders
+-- Compiling architecture behavior of tb_extenders
+-- Loading entity extend_n
+
+} {} {}}

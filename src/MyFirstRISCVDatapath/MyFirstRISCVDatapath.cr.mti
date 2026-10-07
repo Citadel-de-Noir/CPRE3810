@@ -1,0 +1,172 @@
+/home/sayonsn/CPRE3810/lab2/Lab2/src/MyFirstRISCVDatapath/xorg2.vhd {2 {vcom -work work -2002 -explicit -vopt -stats=none /home/sayonsn/CPRE3810/lab2/Lab2/src/MyFirstRISCVDatapath/xorg2.vhd
+QuestaSim-64 vcom 2026.2 Compiler 2026.05 May 18 2026
+** Warning: (vcom-223) The environment variable MGC_HOME will be deprecated in future releases. Please use QSIM_HOME instead.
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity xorg2
+-- Compiling architecture dataflow of xorg2
+
+} {} {}} /home/sayonsn/CPRE3810/lab2/Lab2/src/MyFirstRISCVDatapath/mux.vhd {2 {vcom -work work -2002 -explicit -vopt -stats=none /home/sayonsn/CPRE3810/lab2/Lab2/src/MyFirstRISCVDatapath/mux.vhd
+QuestaSim-64 vcom 2026.2 Compiler 2026.05 May 18 2026
+** Warning: (vcom-223) The environment variable MGC_HOME will be deprecated in future releases. Please use QSIM_HOME instead.
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux
+-- Compiling architecture structural of mux
+
+} {} {}} /home/sayonsn/CPRE3810/lab2/Lab2/src/MyFirstRISCVDatapath/AddSub_mod.vhd {2 {vcom -work work -2002 -explicit -vopt -stats=none /home/sayonsn/CPRE3810/lab2/Lab2/src/MyFirstRISCVDatapath/AddSub_mod.vhd
+QuestaSim-64 vcom 2026.2 Compiler 2026.05 May 18 2026
+** Warning: (vcom-223) The environment variable MGC_HOME will be deprecated in future releases. Please use QSIM_HOME instead.
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity AddSub_mod
+-- Compiling architecture mixture of AddSub_mod
+
+} {} {}} /home/sayonsn/CPRE3810/lab2/Lab2/src/MyFirstRISCVDatapath/mux_32t1.vhd {2 {vcom -work work -2002 -explicit -vopt -stats=none /home/sayonsn/CPRE3810/lab2/Lab2/src/MyFirstRISCVDatapath/mux_32t1.vhd
+QuestaSim-64 vcom 2026.2 Compiler 2026.05 May 18 2026
+** Warning: (vcom-223) The environment variable MGC_HOME will be deprecated in future releases. Please use QSIM_HOME instead.
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package mux_32b_data
+-- Compiling entity mux_32t1
+-- Compiling architecture dataflow of mux_32t1
+** Warning: /home/sayonsn/CPRE3810/lab2/Lab2/src/MyFirstRISCVDatapath/mux_32t1.vhd(48): (vcom-1272) Length of expected is 32; length of actual is 8.
+
+} {} {}} /home/sayonsn/CPRE3810/lab2/Lab2/src/MyFirstRISCVDatapath/datapath_tb.vhd {2 {vcom -work work -2002 -explicit -vopt -stats=none /home/sayonsn/CPRE3810/lab2/Lab2/src/MyFirstRISCVDatapath/datapath_tb.vhd
+QuestaSim-64 vcom 2026.2 Compiler 2026.05 May 18 2026
+** Warning: (vcom-223) The environment variable MGC_HOME will be deprecated in future releases. Please use QSIM_HOME instead.
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity datapath_tb
+-- Compiling architecture behavior of datapath_tb
+-- Loading entity datapath
+
+} {} {}} /home/sayonsn/CPRE3810/lab2/Lab2/src/MyFirstRISCVDatapath/andg2.vhd {2 {vcom -work work -2002 -explicit -vopt -stats=none /home/sayonsn/CPRE3810/lab2/Lab2/src/MyFirstRISCVDatapath/andg2.vhd
+QuestaSim-64 vcom 2026.2 Compiler 2026.05 May 18 2026
+** Warning: (vcom-223) The environment variable MGC_HOME will be deprecated in future releases. Please use QSIM_HOME instead.
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity andg2
+-- Compiling architecture dataflow of andg2
+
+} {} {}} /home/sayonsn/CPRE3810/lab2/Lab2/src/MyFirstRISCVDatapath/OnesComp.vhd {2 {vcom -work work -2002 -explicit -vopt -stats=none /home/sayonsn/CPRE3810/lab2/Lab2/src/MyFirstRISCVDatapath/OnesComp.vhd
+QuestaSim-64 vcom 2026.2 Compiler 2026.05 May 18 2026
+** Warning: (vcom-223) The environment variable MGC_HOME will be deprecated in future releases. Please use QSIM_HOME instead.
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity OnesComp
+-- Compiling architecture structural of OnesComp
+
+} {} {}} /home/sayonsn/CPRE3810/lab2/Lab2/src/MyFirstRISCVDatapath/reg_file.vhd {2 {vcom -work work -2002 -explicit -vopt -stats=none /home/sayonsn/CPRE3810/lab2/Lab2/src/MyFirstRISCVDatapath/reg_file.vhd
+QuestaSim-64 vcom 2026.2 Compiler 2026.05 May 18 2026
+** Warning: (vcom-223) The environment variable MGC_HOME will be deprecated in future releases. Please use QSIM_HOME instead.
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package mux_32b_data
+-- Compiling entity reg_file
+-- Compiling architecture structural of reg_file
+-- Loading entity decoder_5t32
+-- Loading entity reg_nbit
+-- Loading entity mux_32t1
+
+} {} {}} /home/sayonsn/CPRE3810/lab2/Lab2/src/MyFirstRISCVDatapath/dffg.vhd {2 {vcom -work work -2002 -explicit -vopt -stats=none /home/sayonsn/CPRE3810/lab2/Lab2/src/MyFirstRISCVDatapath/dffg.vhd
+QuestaSim-64 vcom 2026.2 Compiler 2026.05 May 18 2026
+** Warning: (vcom-223) The environment variable MGC_HOME will be deprecated in future releases. Please use QSIM_HOME instead.
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity dffg
+-- Compiling architecture mixed of dffg
+
+} {} {}} /home/sayonsn/CPRE3810/lab2/Lab2/src/MyFirstRISCVDatapath/datapath.vhd {2 {vcom -work work -2002 -explicit -vopt -stats=none /home/sayonsn/CPRE3810/lab2/Lab2/src/MyFirstRISCVDatapath/datapath.vhd
+QuestaSim-64 vcom 2026.2 Compiler 2026.05 May 18 2026
+** Warning: (vcom-223) The environment variable MGC_HOME will be deprecated in future releases. Please use QSIM_HOME instead.
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity datapath
+-- Compiling architecture structural of datapath
+-- Loading package mux_32b_data
+-- Loading entity reg_file
+-- Loading entity AddSub_mod
+
+} {} {}} /home/sayonsn/CPRE3810/lab2/Lab2/src/MyFirstRISCVDatapath/Adder.vhd {2 {vcom -work work -2002 -explicit -vopt -stats=none /home/sayonsn/CPRE3810/lab2/Lab2/src/MyFirstRISCVDatapath/Adder.vhd
+QuestaSim-64 vcom 2026.2 Compiler 2026.05 May 18 2026
+** Warning: (vcom-223) The environment variable MGC_HOME will be deprecated in future releases. Please use QSIM_HOME instead.
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Adder
+-- Compiling architecture mixture of Adder
+
+} {} {}} /home/sayonsn/CPRE3810/lab2/Lab2/src/MyFirstRISCVDatapath/mux_32b_data.vhd {2 {vcom -work work -2002 -explicit -vopt -stats=none /home/sayonsn/CPRE3810/lab2/Lab2/src/MyFirstRISCVDatapath/mux_32b_data.vhd
+QuestaSim-64 vcom 2026.2 Compiler 2026.05 May 18 2026
+** Warning: (vcom-223) The environment variable MGC_HOME will be deprecated in future releases. Please use QSIM_HOME instead.
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling package mux_32b_data
+
+} {} {}} /home/sayonsn/CPRE3810/lab2/Lab2/src/MyFirstRISCVDatapath/org2.vhd {2 {vcom -work work -2002 -explicit -vopt -stats=none /home/sayonsn/CPRE3810/lab2/Lab2/src/MyFirstRISCVDatapath/org2.vhd
+QuestaSim-64 vcom 2026.2 Compiler 2026.05 May 18 2026
+** Warning: (vcom-223) The environment variable MGC_HOME will be deprecated in future releases. Please use QSIM_HOME instead.
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity org2
+-- Compiling architecture dataflow of org2
+
+} {} {}} /home/sayonsn/CPRE3810/lab2/Lab2/src/MyFirstRISCVDatapath/reg_nbit.vhd {2 {vcom -work work -2002 -explicit -vopt -stats=none /home/sayonsn/CPRE3810/lab2/Lab2/src/MyFirstRISCVDatapath/reg_nbit.vhd
+QuestaSim-64 vcom 2026.2 Compiler 2026.05 May 18 2026
+** Warning: (vcom-223) The environment variable MGC_HOME will be deprecated in future releases. Please use QSIM_HOME instead.
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity reg_nbit
+-- Compiling architecture Structural of reg_nbit
+
+} {} {}} /home/sayonsn/CPRE3810/lab2/Lab2/src/MyFirstRISCVDatapath/decoder_5t32.vhd {2 {vcom -work work -2002 -explicit -vopt -stats=none /home/sayonsn/CPRE3810/lab2/Lab2/src/MyFirstRISCVDatapath/decoder_5t32.vhd
+QuestaSim-64 vcom 2026.2 Compiler 2026.05 May 18 2026
+** Warning: (vcom-223) The environment variable MGC_HOME will be deprecated in future releases. Please use QSIM_HOME instead.
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity decoder_5t32
+-- Compiling architecture dataflow of decoder_5t32
+
+} {} {}} /home/sayonsn/CPRE3810/lab2/Lab2/src/MyFirstRISCVDatapath/invg.vhd {2 {vcom -work work -2002 -explicit -vopt -stats=none /home/sayonsn/CPRE3810/lab2/Lab2/src/MyFirstRISCVDatapath/invg.vhd
+QuestaSim-64 vcom 2026.2 Compiler 2026.05 May 18 2026
+** Warning: (vcom-223) The environment variable MGC_HOME will be deprecated in future releases. Please use QSIM_HOME instead.
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity invg
+-- Compiling architecture dataflow of invg
+
+} {} {}} /home/sayonsn/CPRE3810/lab2/Lab2/src/MyFirstRISCVDatapath/Adder_nbit.vhd {2 {vcom -work work -2002 -explicit -vopt -stats=none /home/sayonsn/CPRE3810/lab2/Lab2/src/MyFirstRISCVDatapath/Adder_nbit.vhd
+QuestaSim-64 vcom 2026.2 Compiler 2026.05 May 18 2026
+** Warning: (vcom-223) The environment variable MGC_HOME will be deprecated in future releases. Please use QSIM_HOME instead.
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Adder_nbit
+-- Compiling architecture mixture of Adder_nbit
+
+} {} {}} /home/sayonsn/CPRE3810/lab2/Lab2/src/MyFirstRISCVDatapath/mux2t1_N.vhd {2 {vcom -work work -2002 -explicit -vopt -stats=none /home/sayonsn/CPRE3810/lab2/Lab2/src/MyFirstRISCVDatapath/mux2t1_N.vhd
+QuestaSim-64 vcom 2026.2 Compiler 2026.05 May 18 2026
+** Warning: (vcom-223) The environment variable MGC_HOME will be deprecated in future releases. Please use QSIM_HOME instead.
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux2t1_N
+-- Compiling architecture structural of mux2t1_N
+
+} {} {}}

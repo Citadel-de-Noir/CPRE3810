@@ -1,0 +1,181 @@
+m255
+K4
+z2
+!s12c _opt1
+Z0 !s99 nomlopt
+!s12c _opt
+R0
+!s11e vcom 2026.2 2026.05, May 18 2026
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 d/home/sayonsn/CPRE3810/lab2/Lab2/src/MyFirstRISCVDatapath
+T_opt
+!i145 1
+!i144 0
+!s110 1790566337
+VWF@OgMSeQ8g7n?<3z_h`Q0
+04 6 7 work mem_tb mixture 1
+=1-005056b69b39-6ab9dfc1-3dce5-1a228
+R0
+Z2 !s12f OEM100
+Z3 !s12b OEM100
+Z4 !s124 OEM100
+Z5 !s135 nogc
+!i152 0
+Z6 o-quiet -auto_acc_if_foreign -work work +acc
+Z7 tCvgOpt 0
+n@_opt
+Z8 OL;O;2026.2;84
+R1
+T_opt1
+!i145 1
+!i144 0
+!s110 1790566676
+VzO<l?3W:m7jfo30AC90;U2
+04 7 7 work tb_dmem mixture 1
+=1-005056b69b39-6ab9e113-a0eda-1a58d
+R0
+R2
+R3
+R4
+R5
+!i152 0
+R6
+R7
+n@_opt1
+R8
+Emem
+Z9 w1788392593
+Z10 DPx4 ieee 11 numeric_std 0 22 m=kP7jRZW]kY;6MU;0z<22
+Z11 DPx3 std 6 textio 0 22 <UlP6K1@RDQa_MJ[:UEnP2
+Z12 DPx4 ieee 14 std_logic_1164 0 22 TDbGXLH=YSoj9JRY2gkNY0
+!i122 2
+Z13 d/home/sayonsn/CPRE3810/lab2/Lab2/src/Memory
+Z14 8/home/sayonsn/CPRE3810/lab2/Lab2/src/Memory/mem.vhd
+Z15 F/home/sayonsn/CPRE3810/lab2/Lab2/src/Memory/mem.vhd
+l0
+L8 1
+Vn;A[62CLHQNChY_1@?=1E1
+!s100 <FE^5`c6G[DN?g3EGE^:f0
+Z16 OL;C;2026.2;84
+32
+Z17 !s110 1790566666
+!i10b 1
+Z18 !s108 1790566666.000000
+Z19 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|/home/sayonsn/CPRE3810/lab2/Lab2/src/Memory/mem.vhd|
+Z20 !s107 /home/sayonsn/CPRE3810/lab2/Lab2/src/Memory/mem.vhd|
+!i113 0
+Z21 o-work work -2002 -explicit
+Z22 tExplicit 1 CvgOpt 0
+Artl
+R10
+R11
+R12
+Z23 DEx4 work 3 mem 0 22 n;A[62CLHQNChY_1@?=1E1
+!i122 2
+l40
+L29 39
+VcIlLT>gScR`F60QYhnP7D0
+!s100 M8@fCBfhYoIU@PkXS=DFb3
+R16
+32
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 0
+R21
+R22
+Emem_tb
+Z24 w1790566318
+R10
+R11
+R12
+!i122 1
+R13
+Z25 8/home/sayonsn/CPRE3810/lab2/Lab2/src/Memory/mem_tb.vhd
+Z26 F/home/sayonsn/CPRE3810/lab2/Lab2/src/Memory/mem_tb.vhd
+l0
+Z27 L16 1
+VPYS`2cT=6>aeWG;2M7iF`2
+!s100 LG1ZjWc5I6[EhcM_Vz7Wi2
+R16
+32
+Z28 !s110 1790566327
+!i10b 1
+Z29 !s108 1790566327.000000
+Z30 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|/home/sayonsn/CPRE3810/lab2/Lab2/src/Memory/mem_tb.vhd|
+Z31 !s107 /home/sayonsn/CPRE3810/lab2/Lab2/src/Memory/mem_tb.vhd|
+!i113 0
+R21
+R22
+Amixture
+R23
+R10
+R11
+R12
+DEx4 work 6 mem_tb 0 22 PYS`2cT=6>aeWG;2M7iF`2
+!i122 1
+l27
+Z32 L19 48
+V2ncDBI4RXO2g2<a`CMaI>0
+!s100 okLL_J=a;Ab3_V^j`oo3J3
+R16
+32
+R28
+!i10b 1
+R29
+R30
+R31
+!i113 0
+R21
+R22
+Etb_dmem
+Z33 w1790566610
+R10
+R11
+R12
+!i122 3
+R13
+Z34 8/home/sayonsn/CPRE3810/lab2/Lab2/src/Memory/tb_dmem.vhd
+Z35 F/home/sayonsn/CPRE3810/lab2/Lab2/src/Memory/tb_dmem.vhd
+l0
+R27
+VU@U7SU9>TeEJ>NQf7B7j10
+!s100 NK`VMG8Te:@SLD_KYNhBg1
+R16
+32
+R17
+!i10b 1
+R18
+Z36 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|/home/sayonsn/CPRE3810/lab2/Lab2/src/Memory/tb_dmem.vhd|
+Z37 !s107 /home/sayonsn/CPRE3810/lab2/Lab2/src/Memory/tb_dmem.vhd|
+!i113 0
+R21
+R22
+Amixture
+R23
+R10
+R11
+R12
+DEx4 work 7 tb_dmem 0 22 U@U7SU9>TeEJ>NQf7B7j10
+!i122 3
+l27
+R32
+V3NjgmF<CJUN]YF9h=15_`0
+!s100 jPl2K_5MDE9AW_WSgg=ie3
+R16
+32
+R17
+!i10b 1
+R18
+R36
+R37
+!i113 0
+R21
+R22

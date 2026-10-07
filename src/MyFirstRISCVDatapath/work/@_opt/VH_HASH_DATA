@@ -1,0 +1,43 @@
+[N
+6
+6
+7 mixture
+2
+8 mux2t1_n
+4
+1 N
+5
+10 addsub_mod
+3
+10 structural
+1
+62 /home/sayonsn/CPRE3810/lab2/Lab2/src/MyFirstRISCVDatapath/work
+]
+[G
+1
+2
+3
+1
+4
+1
+0
+32
+0
+0 0
+0
+0
+]
+[G
+1
+5
+6
+1
+4
+1
+0
+32
+0
+0 0
+0
+0
+]

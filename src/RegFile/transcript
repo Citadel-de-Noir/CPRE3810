@@ -1,0 +1,94 @@
+# //  Questa Sim-64
+# //  Version 2026.2 linux_x86_64 May 18 2026
+# //
+# // Unpublished work. Copyright 2026 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+# Loading project RegFile
+# Compile of dffg.vhd was successful with warnings.
+# Compile of reg_nbit.vhd was successful with warnings.
+# Compile of reg_nbit_tb.vhd was successful with warnings.
+# Compile of decoder_5t32.vhd was successful with warnings.
+# Compile of decoder_5t32_tb.vhd was successful with warnings.
+# Compile of mux_32t1.vhd was successful with warnings.
+# Compile of mux_32b_data.vhd was successful with warnings.
+# Compile of mux_32t1_tb.vhd was successful with warnings.
+# 8 compiles, 0 failed with no errors.
+# Compile of dffg.vhd was successful with warnings.
+# Compile of reg_nbit.vhd was successful with warnings.
+# Compile of reg_nbit_tb.vhd was successful with warnings.
+# Compile of decoder_5t32.vhd was successful with warnings.
+# Compile of decoder_5t32_tb.vhd was successful with warnings.
+# Compile of mux_32t1.vhd was successful with warnings.
+# Compile of mux_32b_data.vhd was successful with warnings.
+# Compile of mux_32t1_tb.vhd was successful with warnings.
+# Compile of reg_file.vhd failed with 1 errors.
+# 9 compiles, 1 failed with 1 error.
+# Compile of dffg.vhd was successful with warnings.
+# Compile of reg_nbit.vhd was successful with warnings.
+# Compile of reg_nbit_tb.vhd was successful with warnings.
+# Compile of decoder_5t32.vhd was successful with warnings.
+# Compile of decoder_5t32_tb.vhd was successful with warnings.
+# Compile of mux_32t1.vhd was successful with warnings.
+# Compile of mux_32b_data.vhd was successful with warnings.
+# Compile of mux_32t1_tb.vhd was successful with warnings.
+# Compile of reg_file.vhd failed with 2 errors.
+# 9 compiles, 1 failed with 2 errors.
+# Compile of dffg.vhd was successful with warnings.
+# Compile of reg_nbit.vhd was successful with warnings.
+# Compile of reg_nbit_tb.vhd was successful with warnings.
+# Compile of decoder_5t32.vhd was successful with warnings.
+# Compile of decoder_5t32_tb.vhd was successful with warnings.
+# Compile of mux_32t1.vhd was successful with warnings.
+# Compile of mux_32b_data.vhd was successful with warnings.
+# Compile of mux_32t1_tb.vhd was successful with warnings.
+# Compile of reg_file.vhd failed with 1 errors.
+# 9 compiles, 1 failed with 1 error.
+# Compile of dffg.vhd was successful with warnings.
+# Compile of reg_nbit.vhd was successful with warnings.
+# Compile of reg_nbit_tb.vhd was successful with warnings.
+# Compile of decoder_5t32.vhd was successful with warnings.
+# Compile of decoder_5t32_tb.vhd was successful with warnings.
+# Compile of mux_32t1.vhd was successful with warnings.
+# Compile of mux_32b_data.vhd was successful with warnings.
+# Compile of mux_32t1_tb.vhd was successful with warnings.
+# Compile of reg_file.vhd failed with 1 errors.
+# 9 compiles, 1 failed with 1 error.
+# Compile of dffg.vhd was successful with warnings.
+# Compile of reg_nbit.vhd was successful with warnings.
+# Compile of reg_nbit_tb.vhd was successful with warnings.
+# Compile of decoder_5t32.vhd was successful with warnings.
+# Compile of decoder_5t32_tb.vhd was successful with warnings.
+# Compile of mux_32t1.vhd was successful with warnings.
+# Compile of mux_32b_data.vhd was successful with warnings.
+# Compile of mux_32t1_tb.vhd was successful with warnings.
+# Compile of reg_file.vhd failed with 4 errors.
+# 9 compiles, 1 failed with 4 errors.
+# Compile of dffg.vhd was successful with warnings.
+# Compile of reg_nbit.vhd was successful with warnings.
+# Compile of reg_nbit_tb.vhd was successful with warnings.
+# Compile of decoder_5t32.vhd was successful with warnings.
+# Compile of decoder_5t32_tb.vhd was successful with warnings.
+# Compile of mux_32t1.vhd was successful with warnings.
+# Compile of mux_32b_data.vhd was successful with warnings.
+# Compile of mux_32t1_tb.vhd was successful with warnings.
+# Compile of reg_file.vhd failed with 1 errors.
+# 9 compiles, 1 failed with 1 error.
+# Compile of dffg.vhd was successful with warnings.
+# Compile of reg_nbit.vhd was successful with warnings.
+# Compile of reg_nbit_tb.vhd was successful with warnings.
+# Compile of decoder_5t32.vhd was successful with warnings.
+# Compile of decoder_5t32_tb.vhd was successful with warnings.
+# Compile of mux_32t1.vhd was successful with warnings.
+# Compile of mux_32b_data.vhd was successful with warnings.
+# Compile of mux_32t1_tb.vhd was successful with warnings.
+# Compile of reg_file.vhd was successful with warnings.
+# 9 compiles, 0 failed with no errors.
